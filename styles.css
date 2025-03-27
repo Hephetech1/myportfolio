@@ -1,0 +1,385 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #0D1117;
+    background-image:url(./img/abstract-high-speed-light-background-600nw-2429615547.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+    list-style-type: none;
+    background-blend-mode: overlay;
+    border-radius: 50%;
+}
+/*CHAT GPT*/
+.nav-link.active {
+    color: #6c8efa !important;
+    font-weight: bold;
+}
+
+
+
+.OPTION_BUTTON {
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.OPTION_BUTTON:before {
+    content: "";
+    background: linear-gradient(45deg,
+            #ff0080,
+            #ff0080,
+            #ff0080,
+            #6c8efa,
+            #6c8efa,
+            #6c8efa,
+            #ff0080,
+            #ff00c8,
+            #ff0080);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-OPTION_BUTTON 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-OPTION_BUTTON {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.OPTION_BUTTON:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+.MY-NAV_BAR{
+    border:2px solid rgba(255, 255, 255, 0.2) ;
+    box-shadow: 0 4px 10px rgba(225 225 225 0.2 );
+}
+
+.THE_MAIN{
+    background-position: center;
+    background-size: cover;
+    border-bottom: solid #ffffff33 2px;
+}
+.CONT-NAV{
+    text-decoration: none;
+    color: white;
+}
+.CONT-NAV:hover{
+    color: white;
+}
+.card-title{
+    color: white !important;
+    font-size: larger;
+}
+.card-text{
+    color:rgba(255, 255, 255, 0.7) ;
+}
+.card{
+background-color: transparent !important;
+color: white;
+border:solid rgba(255, 255, 255, 0.2)  2px;
+}
+
+.SERVICES, .SKILLS{
+    border-bottom: solid rgba(255, 255, 255, 0.2) 2px;
+}
+.SKILLS{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.PORTFOLIO{
+    padding-bottom: 70px;
+    padding-top: 70px;
+    border-bottom: solid rgba(255, 255, 255, 0.2) 2px;
+    background: none !important;
+}
+ul, li {
+    list-style-type: none;
+}
+.MY_TITLE{
+    position: relative;
+}
+h3, .CONT, .MY_TITLE{
+
+    background: linear-gradient(90deg, rgb(255, 0, 128), #6c8efa);
+    -webkit-background-clip: text;
+    font-stretch: extra-expanded;
+    -webkit-text-fill-color: transparent;
+}
+.GLASSMORPHISM{
+    position: absolute;
+    z-index: -1;
+    top: 35%;
+    left: 50%;
+    opacity: 0.8;
+    filter: drop-shadow(0 5px 15px rgba(255, 0, 128, 0.3));
+
+}
+.GLASSMORPHISM2 {
+    position: absolute;
+    padding-top: none;
+    z-index: -1;
+    left: 60%;
+    opacity: 0.8;
+    filter: drop-shadow(5px 5px 15px rgba(255, 0, 128, 0.5));
+
+}
+
+
+.MINE{
+box-shadow: 10px 10px 20px rgba(108,
+    142,
+    250, 0.5);
+box-shadow: 150px 15px 30px rgba(108,
+    142,
+    250, 0.5);
+    box-shadow: 10px 10px 20px rgba(255,
+        0,
+        128, 0.4);
+        border-top-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+transition: box-shadow 0.5s ease-in-out;
+}
+
+
+
+.MYBUTT {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.MYBUTT:before {
+    content: "";
+    background: linear-gradient(45deg,
+            #ff0080,
+            #ff0080,
+            #ff0080,
+            #6c8efa,
+            #6c8efa,
+            #6c8efa,
+            #ff0080,
+            #ff00c8,
+            #ff0080);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-MYBUTT 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-MYBUTT {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.MYBUTT:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+.service-box {
+    background:rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: left;
+    width:45%;
+    
+    position: relative;
+
+}
+.service-paragraph{
+    font-weight:lighter;
+    font-size: smaller;
+    color: rgb(255, 255, 255);
+   opacity: 0.8;
+   line-height: 2rem;
+}
+
+.LINKEDIN{
+    color: white;
+}
+.service-container{
+position: absolute;
+}
+.SERVICES{
+    padding-bottom: 400px;
+    padding-top: 100px;
+    position: relative;
+}
+.middle{
+    left: 40%;
+}
+.bottom{
+    left: 70%;
+}
+.TECH {
+    width: 5rem;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.CONT, #CONTACT{
+    padding-top: 100px;
+}
+input, form{
+    background-color: none;
+}
+@media (max-width: 767px) {
+.GLASSMORPHISM2 {
+       display: none;
+    }
+.TECH {
+        width: 4rem;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+
+    .card {
+           width: 60%;
+           margin: auto;
+
+        }
+    .GLASSMORPHISM {
+        display: none;
+    }
+
+    .PANKERE2 {
+        display: none;
+    }
+
+    .PANKERE {
+        display: none;
+    }
+
+    .MINE {
+
+        box-shadow: none;
+        width: 80%;
+        height: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin-bottom: 100px;
+    }
+    .THE-TITLE{
+margin-bottom: 100px;
+    }
+
+    .THE-TITLE {
+        margin-bottom: 5rem;
+        margin-top: 4rem;
+    }
+
+    .service-container {
+        position: static;
+        top: auto;
+        left: auto;
+    }
+        .service-box{
+            width:100%;
+            margin-bottom: 50px;
+            
+        }
+        .service-box:hover{
+            background: linear-gradient(90deg, rgba(255, 0, 128, 0.3), rgba(108, 142, 250, 0.2));
+        }
+
+    .SERVICES {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+            padding-bottom: 20px;
+        }
+
+    .middle {
+        position: static;
+        left: auto;
+        right: auto;
+    }
+
+    .bottom {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        margin: 0px;
+    }
+ #CONTACT{
+    width: 100% !important;
+ }
+
+}
