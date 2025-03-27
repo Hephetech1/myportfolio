@@ -10,7 +10,7 @@ if (window.scrollY > 50) {
   home.classList.add("mt-4");
   navbar.classList.remove("bg-light");
 } else {
-  navbar.classList.remove("bg-dark", "text-white");
+  navbar.classList.remove("bg-dark", "text-white|");
 
 }
 
