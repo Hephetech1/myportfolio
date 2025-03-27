@@ -1,6 +1,8 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+* {
+    outline: 1px solid red;
+}
 body {
     background-color: #0D1117;
     background-image:url(./img/abstract-high-speed-light-background-600nw-2429615547.jpg);
@@ -302,13 +304,9 @@ input, form{
     background-color: none;
 }
 @media (max-width: 767px) {
-    body{
-        flex-wrap: wrap !important;
-        width: 100% !important;
-    }
     html{
-        flex-wrap: wrap !important;
-        width: 100% !important;
+        flex-wrap: wrap;
+        width: 100%;
         overflow-x: hidden !important;
     }
 .GLASSMORPHISM2 {
