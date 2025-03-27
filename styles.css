@@ -306,10 +306,17 @@ input, form{
 [data-aos]{
     max-width: 100%;
 }
-
+.aos-container {
+    overflow: hidden;
+    /* Ensures child elements don’t extend beyond the screen */
+}
 
 
 @media (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+        
+    }
     html{
         flex-wrap: wrap;
         width: 100%;
@@ -398,5 +405,44 @@ margin-bottom: 100px;
  #CONTACT{
     width: 100% !important;
  }
+
+
+
+
+
+ [data-aos="fade-right"] {
+     transform: translateX(20px) !important;
+     /* Reduce movement */
+ }
+
+ [data-aos="fade-left"] {
+     transform: translateX(-20px) !important;
+     /* Reduce movement */
+ }
+
+ [data-aos="zoom-in"] {
+     transform: scale(1.05) !important;
+     /* Reduce zoom effect */
+ }
+
+
+ @media (max-width: 767px) {
+     [data-aos="fade-right"] {
+         transform: translateX(20px) !important;
+         /* Reduce movement */
+     }
+
+     [data-aos="fade-left"] {
+         transform: translateX(-20px) !important;
+         /* Reduce movement */
+     }
+
+     [data-aos="zoom-in"] {
+         transform: scale(1.05) !important;
+         /* Reduce zoom effect */
+     }
+ }
+
+
 
 }
