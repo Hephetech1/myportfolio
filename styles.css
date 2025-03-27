@@ -5,7 +5,6 @@
 
 
 body {
-    position: relative;
     background-color: #0D1117;
     background-image: url(./img/abstract-high-speed-light-background-600nw-2429615547.jpg);
     background-repeat: no-repeat;
@@ -13,12 +12,15 @@ body {
     background-position: center;
     background-size: cover;
     cursor: pointer;
+
     color: white;
     font-family: 'Poppins', sans-serif;
+
     list-style-type: none;
     background-blend-mode: overlay;
     border-radius: 50%;
 }
+
 
 
 [data-aos] {
@@ -336,6 +338,23 @@ form {
 
 
 @media (max-width: 767px) {
+
+
+.position-sticky {
+        position: fixed !important;
+        /* Ensures it stays sticky */
+        top: 0 !important;
+        /* Ensures it sticks at the top */
+        z-index: 1020;
+    }
+.navbar {
+    position: fixed !important;
+    width:94%;
+    margin: auto;
+    top: 0px !important;
+    z-index: 1050 !important;
+}
+
     .container {
         width: 100%;
         /* Ensures full width */
@@ -343,9 +362,26 @@ form {
         /* Prevents horizontal scrolling */
     }
 
-.container {
+    body {
+        width: 100%;
+        min-height: 100vh;
+        /* Ensures full-page height */
+        overflow-x: hidden;
+        /* Prevents horizontal scrolling */
+    }
+
+    body,
+    .container {
         border-radius: 0 !important;
     }
+
+    html {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: none;
+        overflow-x: hidden !important;
+    }
+
     .GLASSMORPHISM2 {
         display: none;
     }
@@ -431,8 +467,6 @@ form {
         right: auto;
         margin: 0px;
     }
-
-
 
     #CONTACT {
         width: 100% !important;
