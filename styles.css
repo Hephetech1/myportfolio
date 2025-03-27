@@ -303,6 +303,12 @@ position: absolute;
 input, form{
     background-color: none;
 }
+[data-aos]{
+    max-width: 100%;
+}
+
+
+
 @media (max-width: 767px) {
     html{
         flex-wrap: wrap;

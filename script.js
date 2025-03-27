@@ -1,4 +1,7 @@
-  AOS.init();
+AOS.init({
+  disable: 'phone',
+  mirror: false
+});
 
 
 
