@@ -17,6 +17,10 @@ body {
     background-blend-mode: overlay;
     border-radius: 50%;
 }
+
+html{
+    overflow-x: hidden;
+}
 /*CHAT GPT*/
 .nav-link.active {
     color: #6c8efa !important;
