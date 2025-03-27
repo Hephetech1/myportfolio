@@ -302,6 +302,12 @@ input, form{
     background-color: none;
 }
 @media (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
+    html{
+        overflow-x: hidden !important;
+    }
 .GLASSMORPHISM2 {
        display: none;
     }
