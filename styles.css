@@ -1,5 +1,16 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+* {
+    outline: 1px solid red;
+}
+
+.container {
+  max-width: 100%;
+}
+
+
+
+
 
 body {
     background-color: #0D1117;
@@ -287,10 +298,10 @@ position: absolute;
     position: relative;
 }
 .middle{
-    left: 40%;
+    left: 30%;
 }
 .bottom{
-    left: 70%;
+    left: 50%;
 }
 .TECH {
     width: 5rem;
@@ -396,6 +407,26 @@ margin-bottom: 100px;
  #CONTACT{
     width: 100% !important;
  }
+
+
+[data-aos="fade-right"] {
+    transform: translateX(20px) !important;
+}
+
+[data-aos="fade-left"] {
+    transform: translateX(-20px) !important;
+}
+
+[data-aos="zoom-in"] {
+    transform: scale(1.05) !important;
+}
+
+/* Ensure elements return to their normal positions */
+[data-aos="fade-right"].aos-animate,
+[data-aos="fade-left"].aos-animate,
+[data-aos="zoom-in"].aos-animate {
+    transform: translateX(0) !important;
+}
  }
 
 
