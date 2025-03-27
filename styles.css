@@ -302,9 +302,13 @@ input, form{
     background-color: none;
 }
 @media (max-width: 767px) {
+    body{
+        flex-wrap: wrap !important;
+        width: 100% !important;
+    }
     html{
-        flex-wrap: wrap;
-        width: 100%;
+        flex-wrap: wrap !important;
+        width: 100% !important;
         overflow-x: hidden !important;
     }
 .GLASSMORPHISM2 {
