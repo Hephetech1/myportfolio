@@ -303,6 +303,8 @@ input, form{
 }
 @media (max-width: 767px) {
     html{
+        flex-wrap: wrap;
+        width: 100%;
         overflow-x: hidden !important;
     }
 .GLASSMORPHISM2 {
