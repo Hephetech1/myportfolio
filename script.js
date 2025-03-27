@@ -1,7 +1,7 @@
 AOS.init();
 
 
-window.addEventListener("scroll", function () {
+ window.addEventListener("scroll", function () {
         var home= document.getElementById("home");
         var navbar= 
 document.getElementById("navbar");
@@ -25,4 +25,4 @@ if (window.scrollY > 50) {
             navLinks.forEach(l => l.classList.remove('active'));
             this.classList.add('active');
         });
-    });
+    }); 
