@@ -1,13 +1,5 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-* {
-    outline: 1px solid red;
-}
-
-.container {
-  max-width: 100%;
-}
-
 
 
 
@@ -319,9 +311,28 @@ input, form{
 
 
 @media (max-width: 767px) {
+    .container {
+            width: 100%;
+            /* Ensures full width */
+            overflow-x: hidden;
+            /* Prevents horizontal scrolling */
+        }
+body {
+        width: 100%;
+        min-height: 100vh;
+        /* Ensures full-page height */
+        overflow-x: hidden;
+        /* Prevents horizontal scrolling */
+    }
+body,
+    .container {
+        border-radius: 0 !important;
+    }
+
     html{
         flex-wrap: wrap;
         width: 100%;
+        margin: none;
         overflow-x: hidden !important;
     }
 .GLASSMORPHISM2 {
