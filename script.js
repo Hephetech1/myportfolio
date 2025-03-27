@@ -1,14 +1,5 @@
-  AOS.init();
+ // AOS.init();
 
-
-
-
-
-
-
-
-
-  
 
 window.addEventListener("scroll", function () {
         var home= document.getElementById("home");

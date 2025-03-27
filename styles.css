@@ -18,9 +18,12 @@ body {
     border-radius: 50%;
 }
 
-html{
-    overflow-x: hidden;
+
+[data-aos] {
+    max-width: 100%;
+    /* Ensures elements stay inside the viewport */
 }
+
 /*CHAT GPT*/
 .nav-link.active {
     color: #6c8efa !important;
@@ -301,17 +304,10 @@ position: absolute;
 input, form{
     background-color: none;
 }
-[data-aos]{
-    max-width: 100%;
-}
-.aos-container {
-    overflow: hidden;
-    /* Ensures child elements don’t extend beyond the screen */
-}
+
 
 
 @media (max-width: 767px) {
-  
     html{
         flex-wrap: wrap;
         width: 100%;
@@ -400,44 +396,7 @@ margin-bottom: 100px;
  #CONTACT{
     width: 100% !important;
  }
-
-
-
-
-
- [data-aos="fade-right"] {
-     transform: translateX(20px) !important;
-     /* Reduce movement */
- }
-
- [data-aos="fade-left"] {
-     transform: translateX(-20px) !important;
-     /* Reduce movement */
- }
-
- [data-aos="zoom-in"] {
-     transform: scale(1.05) !important;
-     /* Reduce zoom effect */
- }
-
-
- @media (max-width: 767px) {
-     [data-aos="fade-right"] {
-         transform: translateX(20px) !important;
-         /* Reduce movement */
-     }
-
-     [data-aos="fade-left"] {
-         transform: translateX(-20px) !important;
-         /* Reduce movement */
-     }
-
-     [data-aos="zoom-in"] {
-         transform: scale(1.05) !important;
-         /* Reduce zoom effect */
-     }
  }
 
 
 
-}

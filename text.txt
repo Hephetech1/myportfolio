@@ -1,1 +1,93 @@
 fs-sm-display-1
+
+
+
+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
+git token 
+
+
+
+
+https://portfolioife-eta.vercel.app/#CONTACT
+portfolio link
+
+
+Whataapp
+ https://wa.me/message/2IATSJFPERNRE1
+
+
+LinkedIn 
+https://www.linkedin.com/in/%C3%ACf%E1%BA%B9%CC%81ol%C3%BAwa-ak%C3%ADnp%E1%BA%B9%CC%80l%C3%BA-67310a356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+Instagram 
+https://www.instagram.com/htblac?igsh=MTc3OXAzZmU2b2xvNw==
+
+Facebook 
+https://www.facebook.com/profile.php?id=61554637426126
+Facebook 
+Instagram 
+ 
+Telegram 
+t.me/HTBlac1
+
+
+Message
+
+New fixed 
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    [data-aos="fade-right"] {
+        transform: translateX(20px) !important; /* Reduce movement */
+    }
+
+    [data-aos="fade-left"] {
+        transform: translateX(-20px) !important; /* Reduce movement */
+    }
+
+    [data-aos="zoom-in"] {
+        transform: scale(1.05) !important; /* Reduce zoom effect */
+    }
+
+
+@media (max-width: 767px) {
+    [data-aos="fade-right"] {
+        transform: translateX(20px) !important; /* Reduce movement */
+    }
+
+    [data-aos="fade-left"] {
+        transform: translateX(-20px) !important; /* Reduce movement */
+    }
+
+    [data-aos="zoom-in"] {
+        transform: scale(1.05) !important; /* Reduce zoom effect */
+    }
+}
+
+
+
+}
+vv
+ccc
+html, body {
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+[data-aos] {
+    max-width: 100%; /* Ensures elements stay inside the viewport */
+}
+
+
+<div class="aos-container">
+    <div data-aos="fade-right">Your content</div>
+</div>
+
+
+.aos-container {
+    overflow: hidden; /* Ensures child elements don’t extend beyond the screen */
+}
