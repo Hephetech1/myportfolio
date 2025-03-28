@@ -340,12 +340,9 @@ form {
 @media (max-width: 767px) {
 
 
-.position-sticky {
-        position: fixed !important;
-        /* Ensures it stays sticky */
-        top: 0 !important;
-        /* Ensures it sticks at the top */
-        z-index: 1020;
+#home {
+       position: relative;
+        
     }
 .navbar {
     position: fixed !important;
@@ -354,6 +351,24 @@ form {
     top: 0px !important;
     z-index: 1050 !important;
 }
+
+
+.navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1050 !important;
+    background-color: rgb(33, 37, 41) !important;
+    /* Ensures visibility */
+}
+
+body {
+    overflow-y: auto !important;
+    /* Allows scrolling */
+    height: 100vh;
+    /* Ensures full-page scrolling */
+}
+
+
 
     .container {
         width: 100%;
