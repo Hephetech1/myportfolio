@@ -344,31 +344,25 @@ form {
        position: relative;
         
     }
-.navbar {
-    position: fixed !important;
-    width:94%;
-    margin: auto;
-    top: 0px !important;
-    z-index: 1050 !important;
+html,
+body {
+    overflow-x: hidden;
+    /* Prevents unwanted horizontal scroll */
+    height: auto !important;
+    /* Ensures body adapts to content */
 }
-
 
 .navbar {
     position: sticky !important;
     top: 0 !important;
     z-index: 1050 !important;
+    /* Ensures navbar stays above other content */
     background-color: rgb(33, 37, 41) !important;
-    /* Ensures visibility */
+    /* Dark navbar color */
+    width: 100%;
+    height: auto;
+    /* Allows navbar to adjust height naturally */
 }
-
-body {
-    overflow-y: auto !important;
-    /* Allows scrolling */
-    height: 100vh;
-    /* Ensures full-page scrolling */
-}
-
-
 
     .container {
         width: 100%;
