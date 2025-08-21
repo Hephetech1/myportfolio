@@ -121,6 +121,10 @@ body {
 .CONT-NAV:hover {
     color: white;
 }
+.card-img-top {
+  height: 300px;          
+  object-fit: cover;      
+}
 
 .card-title {
     color: white !important;
